@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { updateReview, getReviews } from "../utils/api.jsx";
+import "../styles/UpdateReview.css";
 
 const UpdateReview = () => {
   const { id } = useParams();
@@ -29,10 +30,10 @@ const UpdateReview = () => {
   };
 
   return (
-    <div>
-      <h1>Update Review</h1>
+    <div className="form-container">
+      <h1>Ändern Sie Ihre Bewertung</h1>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className="form-group">
           <label>Name:</label>
           <input
             type="text"
@@ -41,12 +42,12 @@ const UpdateReview = () => {
             onChange={handleChange}
           />
         </div>
-        <div>
+        <div className="form-group">
           <label>Text:</label>
           <textarea name="text" value={review.text} onChange={handleChange} />
         </div>
-        <div>
-          <label>Rating:</label>
+        <div className="form-group">
+          <label>Bewertung:</label>
           <input
             type="number"
             name="rating"
@@ -56,7 +57,9 @@ const UpdateReview = () => {
             max="10"
           />
         </div>
-        <button type="submit">Update</button>
+        <button type="submit" className="update-button">
+          Ändern
+        </button>
       </form>
     </div>
   );

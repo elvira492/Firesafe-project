@@ -1,9 +1,10 @@
 // Service.jsx
 import React from "react";
+import "../styles/Service.css";
 
 const Service = () => {
   return (
-    <div>
+    <div className="service">
       <h2>Leistungen</h2>
       <p>
         Wir bieten Ihnen rund um den Brandschutz folgende Serviceleistungen:
@@ -20,7 +21,7 @@ const Service = () => {
         <li>Verkauf, Montage und Wartung von Rauchwarnmeldern</li>
       </ul>
       <p>Gerne besuchen wir Sie für eine kostenlose Beratung vor Ort.</p>
-      <p>GALERIE</p>
+      {/* <p>GALERIE</p> */}
     </div>
   );
 };

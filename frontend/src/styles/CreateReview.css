@@ -1,8 +1,9 @@
 .form-container {
-  width: 400px;
+  width: 90%;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
+  height: fit-content;
 }
 
 .form-group {
@@ -47,4 +48,14 @@
 
 .submit-button:hover {
   background-color: #ff3111af;
+}
+
+@media (min-width: 750px) {
+  .form-container {
+    width: 30%;
+    height: 70vh;
+  }
+  * {
+    font-size: large;
+  }
 }

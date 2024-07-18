@@ -3,6 +3,7 @@ import ReviewList from "../components/ReviewList";
 import CreateReview from "../components/CreateReview";
 import { getReviews, createReview } from "../utils/api";
 import "../styles/AboutUs.css";
+
 import dahms1 from "../assets/dahms1.jpg";
 import dahms2 from "../assets/dahms2.jpg";
 import dahms3 from "../assets/dahms3.jpg";
@@ -27,8 +28,8 @@ const About = () => {
 
   return (
     <div>
-      <div className="aboutcontainer">
-        <div className="text">
+      <div className="about-container">
+        <div className="about-text">
           <h2>Über uns</h2>
           <p className="text-red-500 bg-red-200 font-mono">
             Dahms Brandschutztechnik steht für Qualität und 30 Jahre Erfahrung

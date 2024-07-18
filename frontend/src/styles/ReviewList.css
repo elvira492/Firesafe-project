@@ -1,0 +1,64 @@
+.review-container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #2d2d2d;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-list h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.review-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.review-list li {
+  margin: 10px 0;
+  padding: 20px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+  list-style: none;
+}
+
+.review-list h3 {
+  margin: 0 0 10px;
+}
+
+.review-list p {
+  margin: 5px 0;
+}
+
+.review-list .rating {
+  font-weight: bold;
+}
+
+.review-list button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.review-list .update-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+}
+
+.review-list .delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.review-list button:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,32 @@
+.contact-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 65vh;
+  margin: 30px auto;
+}
+
+.contact-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+}
+
+.p-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 750px) {
+  .contact-container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 65vh;
+    margin: 60px auto;
+  }
+}

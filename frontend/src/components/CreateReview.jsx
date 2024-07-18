@@ -18,7 +18,7 @@ const CreateReview = () => {
 
   return (
     <div className="form-container">
-      <h1>Create Review</h1>
+      <h1>Erstelle Bewertung</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Name:</label>
@@ -34,7 +34,7 @@ const CreateReview = () => {
           <textarea name="text" value={review.text} onChange={handleChange} />
         </div>
         <div className="form-group">
-          <label>Rating:</label>
+          <label>Bewertung:</label>
           <input
             type="number"
             name="rating"

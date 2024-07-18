@@ -1,14 +1,14 @@
 import fireman from "../assets/fireman.jpg";
-import gloria from "../assets/gloria.png";
+import "../styles/Home.css";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="home">
       <h2>Herzlich Willkommen</h2>
       <div>
         <p>Seit 30 Jahren Ihr Brandschutzspezialist in Soltau</p>
       </div>
-      <div className="container2">
+      <div className="home-container">
         <div>
           <h3>Qualität</h3>
           <p>
@@ -35,9 +35,6 @@ const HomePage = () => {
       </div>
       <div className="images">
         <img className="fireman" src={fireman} alt="fireman" />
-        {/*         <div className="gloriacontainer">
-          <img className="gloria" src={gloria} alt="gloria" />
-        </div> */}
       </div>
     </div>
   );

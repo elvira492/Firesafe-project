@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { getReviews, deleteReview } from "../utils/api.jsx";
+import "../styles/ReviewList.css";
 
 const ReviewList = () => {
   const [reviews, setReviews] = useState([]);
@@ -25,16 +26,26 @@ const ReviewList = () => {
   };
 
   return (
-    <div>
-      <h1>Reviews</h1>
-      <ul>
+    <div className="review-container">
+      <h1>Bewertungen</h1>
+      <ul className="review-list">
         {reviews.map((review) => (
           <li key={review._id}>
             <h3>{review.name}</h3>
             <p>{review.text}</p>
-            <p>Rating: {review.rating}</p>
-            <button onClick={() => handleUpdate(review._id)}>Update</button>
-            <button onClick={() => handleDelete(review._id)}>Delete</button>
+            <p className="rating">Bewertung: {review.rating}</p>
+            <button
+              className="update-button"
+              onClick={() => handleUpdate(review._id)}
+            >
+              Ändern
+            </button>
+            <button
+              className="update-button"
+              onClick={() => handleDelete(review._id)}
+            >
+              Löschen
+            </button>
           </li>
         ))}
       </ul>

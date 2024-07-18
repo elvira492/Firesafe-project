@@ -2,7 +2,7 @@
   font-family: "SkModernist";
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: rgba(49, 48, 48, 0.736);
 }
 
 body {
@@ -14,31 +14,4 @@ body {
 @font-face {
   font-family: "SkModernist";
   src: url("/Sk-Modernist-Regular.otf") format("opentype");
-}
-
-/* Home */
-.images {
-  display: flex;
-  gap: 2rem;
-  justify-content: end;
-}
-.fireman {
-  height: 300px;
-  border-radius: 10px;
-}
-/* .gloria {
-  max-height: 250px;
-}
-.gloriacontainer {
-  height: 300px;
-  background-color: white;
-  width: 300px;
-  border-radius: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-} */
-.flame {
-  height: 50px;
 }
