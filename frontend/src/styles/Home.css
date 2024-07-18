@@ -17,10 +17,10 @@
 }
 .home-container {
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  height: 65vh;
+  height: fit-content;
 }
 
 @media (min-width: 750px) {
