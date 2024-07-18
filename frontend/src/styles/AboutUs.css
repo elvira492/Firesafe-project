@@ -1,0 +1,25 @@
+.aboutcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  align-items: start;
+  gap: 2rem;
+  padding: 3rem;
+}
+
+.text {
+  width: 50%;
+}
+.imgcont {
+  display: flex;
+  gap: 2rem;
+  justify-content: start;
+}
+.img:nth-of-type(1) {
+  width: 50%;
+}
+.img:nth-of-type(2) {
+  width: 27%;
+  height: fit-content;
+}
