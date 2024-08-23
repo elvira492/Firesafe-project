@@ -72,13 +72,13 @@ Hier ist, wie du das machst:
          }
        ],
        "routes": [
-         { "src": "/api/(.*)", "dest": "/api/index.js" },
+         { "src": "/api/(.*)", "dest": "/index.js" },
          { "src": "/(.*)", "dest": "/src/$1" }
        ]
      }
      ```
 
-     Stelle sicher, dass deine `api/index.js` der Einstiegspunkt für deinen Express-Server ist.
+     Stelle sicher, dass deine `/index.js` der Einstiegspunkt für deinen Express-Server ist.
 
 5. **Frontend-Build-Skript konfigurieren:**
 
