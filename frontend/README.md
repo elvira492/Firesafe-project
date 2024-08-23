@@ -1,6 +1,9 @@
 FIRE SAFE
-jeden Tag muss man erst den Atlas connecten,
-dann npm run dev aus dem backend
+Jeden Tag
+1.ip Adresse genehmigen hier :https://cloud.mongodb.com/v2/669523719d5ec21350349705#/clusters
+2.den Atlas connecten
+3.npm run dev aus dem backend terminal
+4.npm run dev aus dem frontend terminal
 
 **Ablauf**
 

@@ -17,7 +17,7 @@ const app = express(); //2 создаем приложение express и зап
 dotenv.config(); //6
 
 //7️ erstellen von Constanten
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000; //! || 3000 fürs Vercelpublishing
 const DB_USER = process.env.DB_USER;
 const DB_PASSWORD = process.env.DB_PASSWORD;
 const DB_NAME = process.env.DB_NAME;
