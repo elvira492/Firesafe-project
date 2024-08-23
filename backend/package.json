@@ -1,11 +1,11 @@
 {
-  "name": "firesafe-project",
+  "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node backend/index.js",
-    "dev": "nodemon backend/index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
