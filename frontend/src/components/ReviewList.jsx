@@ -26,8 +26,8 @@ const ReviewList = () => {
   };
 
   return (
-    <div className="review-container">
-      <h1>Bewertungen</h1>
+    <div className="review-container max-w-5xl">
+      <h1 className="underline">Bewertungen</h1>
       <ul className="review-list">
         {reviews.map((review) => (
           <li key={review._id}>

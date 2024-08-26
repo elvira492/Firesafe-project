@@ -31,7 +31,12 @@ const CreateReview = () => {
         </div>
         <div className="form-group">
           <label>Text:</label>
-          <textarea name="text" value={review.text} onChange={handleChange} />
+          <textarea
+            className="text-review"
+            name="text"
+            value={review.text}
+            onChange={handleChange}
+          />
         </div>
         <div className="form-group">
           <label>Bewertung:</label>

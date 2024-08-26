@@ -4,7 +4,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="contact-container">
-      <h2>Kontaktinformationen</h2>
+      <h2 className="underline">Kontaktinformationen</h2>
       <h3>Rufen Sie uns an</h3>
       <p className="p-container">
         Mobil: <a href="tel:+491711768915">0171-1768915</a> Andreas Dahms

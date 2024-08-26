@@ -6,7 +6,7 @@ import flame from "../assets/flame.png";
 
 const Header = () => {
   return (
-    <header className="container">
+    <header className="container-header w-screen">
       <NavLink to="/">
         <img className="flame" src={flame} alt="" />
       </NavLink>

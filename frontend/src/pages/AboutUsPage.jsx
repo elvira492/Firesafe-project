@@ -30,8 +30,8 @@ const About = () => {
     <div>
       <div className="about-container">
         <div className="about-text">
-          <h2>Über uns</h2>
-          <p className="text-red-500 bg-red-200 font-mono">
+          <h2 className="underline">Über uns</h2>
+          <p>
             Dahms Brandschutztechnik steht für Qualität und 30 Jahre Erfahrung
             im Bereich des vorbeugenden Brandschutzes.
           </p>

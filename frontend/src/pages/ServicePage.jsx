@@ -5,7 +5,7 @@ import "../styles/Service.css";
 const Service = () => {
   return (
     <div className="service">
-      <h2>Leistungen</h2>
+      <h2 className="underline">Leistungen</h2>
       <p>
         Wir bieten Ihnen rund um den Brandschutz folgende Serviceleistungen:
       </p>

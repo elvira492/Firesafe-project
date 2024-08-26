@@ -1,9 +1,9 @@
 .contact-container {
-  padding: 20px;
+  padding: 4rem 2rem;
   border: 1px solid #ccc;
   border-radius: 8px;
-  height: 65vh;
-  margin: 30px auto;
+  min-height: min-content;
+  margin: 40px auto;
 }
 
 .contact-button {
@@ -18,15 +18,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2rem;
+  padding: 1rem;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 950px) {
   .contact-container {
-    width: 400px;
-    padding: 20px;
+    min-width: min-content;
+    max-width: 30%;
+    padding: 5rem 3rem;
     border: 1px solid #ccc;
     border-radius: 8px;
-    height: 65vh;
-    margin: 60px auto;
+    min-height: min-content;
+    margin: 8% 60% 0;
   }
 }
