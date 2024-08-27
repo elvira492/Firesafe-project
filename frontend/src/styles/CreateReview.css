@@ -1,9 +1,9 @@
 .form-container {
   width: 90%;
-  padding: 50px;
+  padding: 25px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  height: 60vh;
+  height: fit-content;
   margin: 0 auto;
 }
 

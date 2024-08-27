@@ -1,5 +1,5 @@
 .contact-container {
-  padding: 4rem 2rem;
+  padding: 4rem 1rem;
   border: 1px solid #ccc;
   border-radius: 8px;
   min-height: min-content;
@@ -20,18 +20,18 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  gap: 2rem;
-  padding: 1rem;
+  gap: 0.8rem;
+  padding: 0.5rem;
 }
 
 @media (min-width: 950px) {
   .contact-container {
     min-width: min-content;
-    max-width: 30%;
-    padding: 3.5rem 1.5rem;
+    max-width: 40%;
+    padding: 6.5rem 1.5rem;
     border: 1px solid #ccc;
     border-radius: 8px;
     min-height: min-content;
-    margin: 8% 60% 0;
+    margin: 8% auto;
   }
 }

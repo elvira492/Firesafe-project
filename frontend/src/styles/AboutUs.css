@@ -9,7 +9,7 @@
 
 .about-text {
   width: 90%;
-  padding: 50px;
+  padding: 25px;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: medium;
@@ -22,7 +22,7 @@
   margin-top: 1rem;
 }
 .img:nth-of-type(1) {
-  width: 90%;
+  width: fit-content;
   border-radius: 5px;
   margin: 0 auto;
 }
@@ -60,15 +60,15 @@
     font-size: medium;
   }
   .imgcont {
-    display: flex;
-    gap: 2rem;
-    justify-content: space-between;
-    align-items: end;
-    margin-top: 1rem;
+    margin: 0.5rem auto;
+    width: 300px; /* Feste Breite des Containers */
+    height: 200px; /* Feste Höhe des Containers */
+    overflow: hidden; /* Verhindert, dass das Bild den Container verlässt */
   }
-  .img:nth-of-type(1) {
+  .img1 {
     border-radius: 5px;
-    width: 80%;
-    margin: 0 auto;
+    width: 100%; /* Skaliert das Bild auf die Breite des Containers */
+    height: 100%; /* Füllt die Höhe des Containers */
+    object-fit: cover;
   }
 }

@@ -43,7 +43,7 @@ const About = () => {
             Feuerlöschübungen und die Ausbildung von Brandschutzhelfern/-innen.
           </p>
           <div className="imgcont">
-            <img className="img" src={dahms1} alt="" />
+            <img className="img1" src={dahms1} alt="" />
           </div>
         </div>
 
