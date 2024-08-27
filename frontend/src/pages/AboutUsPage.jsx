@@ -46,7 +46,6 @@ const About = () => {
           </p>
           <div className="imgcont">
             <img className="img" src={dahms1} alt="" />
-            <img className="img" src={dahms3} alt="" />
           </div>
         </div>
 
