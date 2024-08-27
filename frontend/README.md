@@ -1,5 +1,12 @@
 FIRE SAFE
-Jeden Tag
+neue Version
+jetzt ist es gepublisht
+bei den neuen Features:
+vercel --prod (in Frontend/in Backend)
+sonst https://firesafe.vercel.app/
+backend hier https://backend-firesafe.vercel.app/
+
+alte Version Jeden Tag
 1.ip Adresse genehmigen hier :https://cloud.mongodb.com/v2/669523719d5ec21350349705#/clusters
 2.den Atlas connecten
 3.npm run dev aus dem backend terminal

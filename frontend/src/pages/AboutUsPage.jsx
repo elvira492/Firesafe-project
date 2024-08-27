@@ -5,8 +5,6 @@ import { getReviews, createReview } from "../utils/api";
 import "../styles/AboutUs.css";
 
 import dahms1 from "../assets/dahms1.jpg";
-import dahms2 from "../assets/dahms2.jpg";
-import dahms3 from "../assets/dahms3.jpg";
 
 const About = () => {
   const [reviews, setReviews] = useState([]);

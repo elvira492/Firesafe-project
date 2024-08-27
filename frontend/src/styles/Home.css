@@ -4,7 +4,6 @@
 }
 .images {
   display: flex;
-  gap: 2rem;
   justify-content: center;
   padding: 20px;
   border: 1px solid #ccc;
